@@ -1,0 +1,37 @@
+{
+  "name": "telegraf-safe-md-reply",
+  "version": "0.0.0",
+  "description": "Reply safely with markdown!",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "tap test/*.js"
+  },
+  "keywords": [
+    "telegraf",
+    "telegram",
+    "bot-middleware",
+    "middleware",
+    "markdown",
+    "reply"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eomm/telegraf-safe-md-reply.git"
+  },
+  "author": "Manuel Spigolon <behemoth89@gmail.com> (https://github.com/Eomm)",
+  "funding": "https://github.com/Eomm/telegraf-safe-md-reply?sponsor=1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eomm/telegraf-safe-md-reply/issues"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "homepage": "https://github.com/Eomm/telegraf-safe-md-reply#readme",
+  "devDependencies": {
+    "standard": "^17.1.0",
+    "tap": "^16.3.9"
+  }
+}
